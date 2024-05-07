@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import Stack from "../../utilities/Stack";
 import { useState } from 'react';
+import { message } from 'antd';
 
 export default function StackOperation({ stack, setStack }) {
     const [value, setValue] = useState('');
@@ -11,17 +12,31 @@ export default function StackOperation({ stack, setStack }) {
 	};
 
     const handlePush = () => {
+        if (stack.isFull()) {
+            message.error("Stack is full upto the configured limit!", 1);
+            return;
+        }
+
 		if (!value) {
 			return;
 		}
 
 		setValue('');
 		stack.push(value);
+
+        message.success(value + " pushed to stack", 1);
 		setStack(new Stack([...stack.items]));
 	};
 
 	const handlePop = () => {
-		stack.pop();
+        if (stack.isEmpty()) {
+            message.error("Stack is Empty!", 1);
+            return;
+        }
+        
+		const poppedElement = stack.pop();
+        message.success(poppedElement + " is popped", 1);
+
 		setStack(new Stack([...stack.items]));
 	};
 

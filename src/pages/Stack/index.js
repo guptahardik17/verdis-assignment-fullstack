@@ -6,14 +6,13 @@ import StackVisual from "../../components/StackVisual";
 import Stats from "../../components/Stats";
 import StackOperation from "../../components/StackOperation";
 
-
 export default function StackComponent() {
 	const [stack, setStack] = useState(new Stack());
 
 	return (
 		<>
 			<div className="container">
-				<h1 className="title"><u>Verdis Assignment - Stack Visualization</u></h1>
+				<h1 className="title">Stack Visualizer</h1>
 			</div>
 			<div className="container">
 				<div className="inner-container">
