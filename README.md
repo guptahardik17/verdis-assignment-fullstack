@@ -4,7 +4,7 @@
 - https://github.com/guptahardik17/verdis-assignment-fullstack.git
 
 ## Live Instance (temporary)
-Currently this react service is deployed on Amazon EC2.
+Currently this react service is deployed on Github Pages.
 ```sh
 BASE URL:  https://guptahardik17.github.io/verdis-assignment-fullstack/
 ```
