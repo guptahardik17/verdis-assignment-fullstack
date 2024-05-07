@@ -1,0 +1,19 @@
+.title {
+	color: rgb(2, 9, 59);
+	margin: 20px;
+	width: 100%;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.inner-container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-self: flex-start;
+}

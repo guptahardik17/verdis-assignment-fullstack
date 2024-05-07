@@ -1,0 +1,12 @@
+.stats {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-self: center;
+	width: 200px;
+	border: #000 solid 1px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 0px #000;
+	word-wrap: break-word;
+	margin-bottom: 50px;
+}
