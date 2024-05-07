@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.2b6ef6a5.css",
-    "main.js": "/static/js/main.6f187785.js",
-    "static/js/453.cfe5bc06.chunk.js": "/static/js/453.cfe5bc06.chunk.js",
-    "index.html": "/index.html",
-    "main.2b6ef6a5.css.map": "/static/css/main.2b6ef6a5.css.map",
-    "main.6f187785.js.map": "/static/js/main.6f187785.js.map",
-    "453.cfe5bc06.chunk.js.map": "/static/js/453.cfe5bc06.chunk.js.map"
+    "main.css": "/verdis-fullstack-assignment/static/css/main.2b6ef6a5.css",
+    "main.js": "/verdis-fullstack-assignment/static/js/main.1b45d408.js",
+    "static/js/453.cfe5bc06.chunk.js": "/verdis-fullstack-assignment/static/js/453.cfe5bc06.chunk.js",
+    "index.html": "/verdis-fullstack-assignment/index.html",
+    "main.2b6ef6a5.css.map": "/verdis-fullstack-assignment/static/css/main.2b6ef6a5.css.map",
+    "main.1b45d408.js.map": "/verdis-fullstack-assignment/static/js/main.1b45d408.js.map",
+    "453.cfe5bc06.chunk.js.map": "/verdis-fullstack-assignment/static/js/453.cfe5bc06.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2b6ef6a5.css",
-    "static/js/main.6f187785.js"
+    "static/js/main.1b45d408.js"
   ]
 }
